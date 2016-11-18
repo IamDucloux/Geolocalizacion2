@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.boton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+// Comentario desde GitHub
                 Intent i=new Intent(getApplicationContext(), MapsActivity.class);
                 startActivity(i);
             }
